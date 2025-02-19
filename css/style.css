@@ -60,4 +60,108 @@ header .menu-desktop ul li:hover {
 /* Fim do Menu de Navegação */
 
 
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+main section {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 85vh;
+  flex-wrap: wrap;
+}
+
+.col-lg-10 {
+  width: 100%;
+}
+
+.col-lg-5 {
+  width: 50%;
+}
+
+.col-lg-4 {
+  width: 40%;
+  display: block;
+  flex-wrap: nowrap;
+}
+
+.grade-imagens {
+  justify-content: flex-start;
+  display: flex;
+  padding-top: 20px;
+}
+
+.grade-tecnologias {
+  justify-content: center;
+  display: flex;
+  padding-top: 5px;
+}
+
+.sub {
+  font-size: 26px;
+  line-height: 33px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.destaque {
+  color: rgb(152, 166, 139);
+}
+
+.botao {
+  align-items: center;
+  align-content: center;
+  background-color: #fff;
+  padding: 5px;
+  width: 150px;
+  margin: 10px;
+  display: inline-flex;
+  border: 2px solid rgb(152, 166, 139);
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background-color: rgb(103, 117, 90);
+  cursor: pointer;
+}
+
+.botao p {
+  color: rgba(0, 0, 0, 0.877);
+  font-weight: bold;
+}
+
+.botao:hover p {
+  color: #fff;
+}
+
+.animation {
+  position: relative;
+  animation: flutuar 1.5s ease-in-out infinite alternate;
+  border-radius: 8px;
+}
+
+@keyframes flutuar {
+  0% {
+      top: 0;
+  }
+
+  100% {
+      top: 15px
+  }
+}
+
+/* fim topo */
