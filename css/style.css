@@ -1,0 +1,63 @@
+/* Estilos Gerais */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+body {
+  background-color: #fff;
+  height: 100vh;
+}
+
+/* Menu de navegação */
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+header {
+  padding: 3px 4%;
+  background-color: rgb(152, 166, 139);
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+header .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+header nav ul {
+  list-style: none;
+}
+header .menu-desktop ul li {
+  display: inline-block;
+  padding-right: 35px;
+  font-size: 22px;
+}
+header .menu-desktop ul li:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+}
+.logo-principal {
+  font-weight: bold;
+  font-size: 34px;
+}
+.destaque-logo {
+  color: rgb(74, 94, 56);
+}
+
+.menu-desktop {
+  min-width: 425px;
+}
+/* Fim do Menu de Navegação */
+
+
+
