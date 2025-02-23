@@ -56,9 +56,9 @@ header .menu-desktop ul li:hover {
 
 .menu-desktop {
   min-width: 425px;
+  margin-top: 10px;
 }
 /* Fim do Menu de Navegação */
-
 
 main {
   width: 100%;
@@ -135,7 +135,7 @@ main section {
 }
 
 .botao:hover {
-  background-color: rgb(103, 117, 90);
+  background-color: rgb(172, 187, 158);
   cursor: pointer;
 }
 
@@ -156,12 +156,41 @@ main section {
 
 @keyframes flutuar {
   0% {
-      top: 0;
+    top: 0;
   }
 
   100% {
-      top: 15px
+    top: 15px;
   }
 }
 
 /* fim topo */
+
+.divisor {
+  width: 50%; /* Ajuste a largura conforme necessário */
+  height: 2px; /* Ajuste a altura conforme necessário */
+  background-color: rgba(103, 117, 90, 0.5); /* Ajuste a cor conforme necessário */
+  margin: 20px auto;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+/*SOBRE*/
+
+#sobre{
+  margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fim sobre */
