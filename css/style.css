@@ -181,6 +181,200 @@ main section {
   margin-top: 100px;
 }
 
+/* fim sobre */
+
+/* Projetos */
+
+#projetos {
+  margin-top: 100px;
+}
+
+#projetos .row {
+  height: 100%;
+  margin: 90px 0px;
+}
+
+.grade-projetos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.projeto {
+  min-width: 300px;
+  min-height: 500px;
+  border: 2px solid rgb(168, 165, 165);
+  border-radius: 25px;
+  background-size: cover;
+  position: relative;
+  background-position: center top;
+  transition: 1s;
+}
+
+.projeto:hover {
+  background-position: center 100%;
+}
+
+.overlay {
+  position: absolute;
+  background-color: #000000c0;
+  border-radius: 24px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  opacity: 0;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.overlay h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.overlay p, a {
+  font-size: 18px;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao-projetos {
+  align-items: center;
+  background-color: #fff;
+  color: #155EC4;
+  padding: 5px;
+  width: 150px;
+  margin-top: 20px;
+  display: inline-flex;
+  border: 2px solid #155EC4;
+  border-radius: 15px;
+}
+.botao-projetos p {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+.botao-projetos:hover {
+  cursor: pointer;
+  background-color: #155EC4;
+  color: #fff;
+}
+
+/* fim projetos */
+
+/* contato */
+
+#contato {
+  margin-top: 100px;
+}
+
+form {
+  width: 70%;
+  max-width: 900px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input, form textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  background-color: rgb(192, 201, 185);
+  border-radius: 15px;
+  color: #fff;
+}
+
+form input::placeholder {
+  color: #ffffff81;
+  font-size: 22px;
+}
+
+form textarea::placeholder {
+  color: #ffffff81;
+  font-size: 22px;
+}
+
+form textarea {
+  resize: none;
+  height: 250px;
+  font-size: 22px;
+}
+
+.btn-enviar {
+  margin-top: 35px;
+}
+
+.btn-enviar input {
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #155EC4;
+  border: 2px solid #155EC4;
+}
+
+.btn-enviar input:hover {
+  cursor: pointer;
+  background-color: #155EC4;
+  color: #fff;
+}
+
+
+/*fim contato*/
+
+/* rodapé */
+
+footer {
+  background-color: rgb(152, 166, 139);
+  text-align: center;
+}
+
+footer .rodape {
+  width: 70%;
+  display: block;
+  justify-content: space-between;
+  text-align: center;
+  margin: 100px;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.links a {
+  padding: 0px 20px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.links a:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.rodape .nome {
+  margin-top: 60px;
+  font-size: 17px;
+  color: #ffffff81;
+}
+
+/* fim rodapé */
 
 
 
