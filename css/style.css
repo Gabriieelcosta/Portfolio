@@ -210,7 +210,7 @@ main section {
   background-size: cover;
   position: relative;
   background-position: center top;
-  transition: 1s;
+  transition: 5s;
 }
 
 .projeto:hover {
